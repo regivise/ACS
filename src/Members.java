@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class Members {
 
     String name;
@@ -6,6 +8,9 @@ public class Members {
     public Members(String n, int a){
      name= n;
      age =a;
+
     }
+
+
 
 }
