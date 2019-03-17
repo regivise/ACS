@@ -2,7 +2,13 @@ package com.company;
 
 public class MathTest {
     public static void main(String[] args) {
+        int hour =2;
+        int minute=30;
 
-        System.out.println(Math.pow(2.0, 10.0));
-    }
+printTime(hour,minute);
+}
+
+public static void printTime(int H, int M){
+    System.out.println("The time is: "+H+":"+M);
+}
 }

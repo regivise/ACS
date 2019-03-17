@@ -4,6 +4,9 @@ import java.text.DecimalFormat;
 import java.math.BigDecimal;
 
 public class Main {
+    public static void newLine() {
+        System.out.println("");}
+
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -15,8 +18,7 @@ public class Main {
         String test= ": ";
         newLine();
         System.out.println("P");
+
     }
-    public static void newLine() {
-         System.out.println("");
-         }
+
 }
