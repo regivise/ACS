@@ -1,5 +1,3 @@
-package com.company;
-
 public class MathTest {
     public static void main(String[] args) {
         int hour =2;
