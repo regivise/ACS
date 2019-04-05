@@ -9,7 +9,7 @@ public class CalculatorCirc {
         System.out.println("Enter radius: ");
         double radius = input.nextDouble();
 
-       System.out.println("The circumference of the circle is " + new DecimalFormat("0.00").format(calc(radius)));
+       System.out.println("The circumference of the circle is " + new DecimalFormat("0.000").format(calc(radius)));
 
     }
     public static double calc(double r){
